@@ -36,7 +36,26 @@ nodemon index.js or
 npm start (mentioned in the package.json)
 ```
 
-### Step 5: Run the following APi's route to perform operations on DB
+### Step 5: Set up the DB for Sequelize in Your Node.js Application
+1. Install Sequelize CLI
+```
+npm install --save-dev sequelize-cli or npm install -g sequelize-cli
+```
+
+2. Verify Your Database Configuration
+Check the database settings in your Sequelize config/config.json (or config.js if you are using .js):
+
+3. Ensure that:
+The database name (database) is correct.
+The username, password, host, and dialect match your PostgreSQL setup.
+
+4. Run Migrations
+After creating the database, you can run your migration:
+```
+npx sequelize-cli db:migrate
+```
+
+### Step 6: Run the following APi's route to perform operations on DB
 
 Run the following url to check the api's document created using swagger
 ```
