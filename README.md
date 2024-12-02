@@ -10,14 +10,14 @@ Install Node.js using the following command:
 
 ```bash
 sudo apt-get install -y nodejs
-
+```
 ### Step 2: Install Packages
 
 Run the following command to install the package for repositories:
 
 ```bash
 npm install
-
+```
 
 ### Step 3: Install Nodemon
 
@@ -25,8 +25,8 @@ Install Nodemon globally to manage your Node.js application:
 
 ```bash
 sudo npm i -g nodemon
-
-### Step 3: Start Your Node.js Application with nodemon (Optional)
+```
+### Step 4: Start Your Node.js Application with nodemon (Optional)
 
 If you need to start your Node.js application managed by Nodemon, you can use the following command:
 
@@ -34,4 +34,11 @@ If you need to start your Node.js application managed by Nodemon, you can use th
 nodemon index.js or
 
 npm start (mentioned in the package.json)
+```
+
+### Step 5: Run the following APi's route to perform operations on DB
+
+Run the following url to check the api's document created using swagger
+```
+### http://localhost:5000/api-docs/
 ```
